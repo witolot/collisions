@@ -4,7 +4,7 @@ This is a case study in using supervised machine learning - specifically a decis
 
 Since we require a `0` and `1` binary differentiator for our Y variable, we pick `at_fault` (as in "at fault of collision"", as stated in the police report). This is usually one of the drivers. We run most of the available variables (e.g. alcohol, movement preceding collision, inattention) as independent variables against this. The resulting decision tree is shown below.
 
-<img src="https://github.com/witolot/collisions/blob/master/images/decision_tree.png" width="800"/>
+<img src="https://github.com/witolot/collisions/blob/master/images/decision_tree.png" width="600"/>
 
 An initial interpretation of the chart is as follows. In descending order of effect size on collisions:
 
